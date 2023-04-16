@@ -1,4 +1,5 @@
 import React from 'react'
+import { SectionWrapper } from '../hoc'
 
 const Feedbacks = () => {
   return (
@@ -6,4 +7,4 @@ const Feedbacks = () => {
   )
 }
 
-export default Feedbacks
+export default SectionWrapper(Feedbacks, 'feedback')

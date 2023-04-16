@@ -13,6 +13,10 @@
   color-scheme: dark;
 }
 
+/* .vertical-timeline-element::after {
+  display: none;
+} */
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
@@ -47,6 +51,12 @@
   background: "#00cea8";
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+}
+
+.pink-green-gradient {
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #c061ffbd 1.9%, #00cea85c 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #c061ffbd 1.9%, #00cea85c 97.5%);
 }
 
 .orange-text-gradient {
