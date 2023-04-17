@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { logo, menu, close } from '../assets'
+import { reynard, menu, close } from '../assets'
 import { navLinks } from '../constants'
 import { styles } from '../styles'
 
@@ -21,7 +21,7 @@ const Navbar = () => {
             window.scrollTo(0,0)
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={reynard} alt='logo' className='w-9 h-9 object-contain logo' />
           <p className='text-white flex text-[18px] font-bold cursor-pointer'>
             Nathan&nbsp;<span className='sm:block hidden'>| Software Engineer</span>
           </p>
