@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Teacher",
       icon: creator,
     },
   ];
@@ -116,55 +116,42 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Facilitator",
+      company_name: "Kenzie Academy",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "November 2021 - Now",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I'm baby whatever sed before they sold out tousled. Adaptogen ut stumptown enim, affogato selvage migas master cleanse fam consectetur PBR&B.",
+        "Slow-carb echo park messenger bag, +1 pop-up pour-over hella wolf grailed forage.",
+        "VHS squid pickled keffiyeh mustache wayfarers paleo.",
+        "Tattooed umami semiotics, copper mug next level helvetica palo santo craft beer paleo gorpcore jianbing in.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Coach",
+      company_name: "Kenzie Academy",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "August 2021 - November 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Culpa meh vinyl, praxis DIY listicle cloud bread tote bag beard twee gatekeep thundercats grailed. ",
+        "Beard crucifix hot chicken jawn bespoke dolore viral. Marfa kombucha jianbing listicle neutral milk hotel edison bulb.",
+        "Photo booth franzen squid, four dollar toast do 8-bit ad.",
+        "Fit gatekeep velit af occupy gochujang hella pork belly roof party unicorn, do etsy asymmetrical venmo cupping. ",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "FullStack Dev",
+      company_name: "Freelance",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "August 2021 - Now",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Franzen unicorn cliche pork belly snackwave wayfarers pickled ad gatekeep try-hard four loko.",
+        "Food truck chambray +1 umami etsy.",
+        "Consequat officia pork belly, nulla swag pop-up tilde live-edge eiusmod kogi copper mug man bun blog subway tile.",
+        "Tilde solarpunk ascot pabst, offal migas fit neutra. ",
       ],
     },
   ];
@@ -172,7 +159,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but he proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -180,7 +167,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like he does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -188,7 +175,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After he optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
