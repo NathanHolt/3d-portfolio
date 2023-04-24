@@ -19,8 +19,8 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
     jobit,
+    dash,
     tripguide,
     threejs,
   } from "../assets";
@@ -194,15 +194,15 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "formik",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "mui",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: dash,
       source_code_link: "https://github.com/NathanHolt/react-admin",
     },
     {
