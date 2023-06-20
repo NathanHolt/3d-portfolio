@@ -76,7 +76,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          I'm baby same mumblecore crucifix cliche ramps enim. Tbh sartorial cupping sunt. Helvetica gatekeep fam, four dollar toast nisi aesthetic blackbird spyplane tumblr same aute hexagon mumblecore unicorn neutral milk hotel. Master cleanse gentrify lo-fi fanny pack lumbersexual vice craft beer marxism succulents vinyl.
+          Here are some examples of a couple of the more modern projects I have made. These mainly show off my experience working with the Frontend. As they are the prettiest, I decided to make them the display pieces
         </motion.p>
       </div>
 

@@ -51,7 +51,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm baby yr labore ea, fugiat polaroid reprehenderit pariatur. Quinoa ramps gastropub, aesthetic cloud bread hell of typewriter elit enamel pin qui austin in sed cred truffaut. Consectetur disrupt put a bird on it, church-key eu pabst YOLO solarpunk cornhole chambray jean shorts tumeric skateboard cloud bread. Mixtape fashion axe poutine you probably haven't heard of them cardigan gentrify ad quinoa labore swag. Leggings dolore VHS irony, cillum gastropub lo-fi disrupt freegan. 
+        My name is Nathan Holt and I am primarily a fullstack web dev. I have experience in other fields, but that is where my primary expertise lies. That being said, I have a deep love of learning and teaching others, so I am always willing to try something new!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

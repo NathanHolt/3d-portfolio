@@ -15,14 +15,11 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    jobit,
     dash,
     tripguide,
     threejs,
+    kenzie,
+    nextCar,
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +39,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Fullstack Web Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "App Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "AWS & Backend Developer",
       icon: backend,
     },
     {
-      title: "Teacher",
+      title: "Coding Instructor",
       icon: creator,
     },
   ];
@@ -118,42 +115,40 @@ import {
     {
       title: "Facilitator",
       company_name: "Kenzie Academy",
-      icon: starbucks,
+      icon: kenzie,
       iconBg: "#383E56",
       date: "November 2021 - Now",
       points: [
-        "I'm baby whatever sed before they sold out tousled. Adaptogen ut stumptown enim, affogato selvage migas master cleanse fam consectetur PBR&B.",
-        "Slow-carb echo park messenger bag, +1 pop-up pour-over hella wolf grailed forage.",
-        "VHS squid pickled keffiyeh mustache wayfarers paleo.",
-        "Tattooed umami semiotics, copper mug next level helvetica palo santo craft beer paleo gorpcore jianbing in.",
+        "As a Facilitator I both supported students on an individual and group settings, which included giving lectures",
+        "This position requires a high level of skill in communication. I needed to make sure that no matter who I was talking to that they understood what I was saying",
+        "A deep knowledge of both Java and AWS was needed, as we were teaching to Amazon standards",
       ],
     },
     {
       title: "Coach",
       company_name: "Kenzie Academy",
-      icon: tesla,
+      icon: kenzie,
       iconBg: "#E6DEDD",
       date: "August 2021 - November 2021",
       points: [
-        "Culpa meh vinyl, praxis DIY listicle cloud bread tote bag beard twee gatekeep thundercats grailed. ",
-        "Beard crucifix hot chicken jawn bespoke dolore viral. Marfa kombucha jianbing listicle neutral milk hotel edison bulb.",
-        "Photo booth franzen squid, four dollar toast do 8-bit ad.",
-        "Fit gatekeep velit af occupy gochujang hella pork belly roof party unicorn, do etsy asymmetrical venmo cupping. ",
+        "My main responsibility was to tutor and explain programming principles to absolute beginners",
+        "Required an in-depth knowledge of both Java fundamentals, as well as AWS",
+        "It also needed a high level of problem solving skills to break down whatever problem a student was having"
       ],
     },
-    {
-      title: "FullStack Dev",
-      company_name: "Freelance",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "August 2021 - Now",
-      points: [
-        "Franzen unicorn cliche pork belly snackwave wayfarers pickled ad gatekeep try-hard four loko.",
-        "Food truck chambray +1 umami etsy.",
-        "Consequat officia pork belly, nulla swag pop-up tilde live-edge eiusmod kogi copper mug man bun blog subway tile.",
-        "Tilde solarpunk ascot pabst, offal migas fit neutra. ",
-      ],
-    },
+    // {
+    //   title: "FullStack Dev",
+    //   company_name: "Freelance",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "August 2021 - Now",
+    //   points: [
+    //     "Franzen unicorn cliche pork belly snackwave wayfarers pickled ad gatekeep try-hard four loko.",
+    //     "Food truck chambray +1 umami etsy.",
+    //     "Consequat officia pork belly, nulla swag pop-up tilde live-edge eiusmod kogi copper mug man bun blog subway tile.",
+    //     "Tilde solarpunk ascot pabst, offal migas fit neutra. ",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -175,8 +170,10 @@ import {
     },
     {
       testimonial:
-        "After he optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        `Nathan is a creative and outside-the-box thinker who quickly adapts to any environment. His
+        ability to assess technical requirements and troubleshoot issues is top-notch. In any team,
+        Nathan is the member who can identify gaps and come up with solutions to address them.`,
+      name: "Chi Nguyen-Rettig",
       designation: "CTO",
       company: "The Enterprise",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -206,46 +203,46 @@ import {
       source_code_link: "https://github.com/NathanHolt/react-admin",
     },
     {
-      name: "Project go here",
+      name: "Next Cars",
       description:
-        "Do sartorial fit chambray taxidermy commodo. Truffaut green juice quinoa, microdosing put a bird on it slow-carb id taxidermy waistcoat.",
+        "A front end application that uses Next.js serverside rendering. It was built fully using React and Typescript with Tailwind styling.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "nextJS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: nextCar,
+      source_code_link: "https://github.com/NathanHolt/next-car-app",
     },
     {
-      name: "Project go here",
+      name: "AI Application",
       description:
-        "Sustainable disrupt fugiat minim culpa in chartreuse. Fingerstache etsy lorem, lumbersexual vexillologist lyft officia tofu.",
+        "This is an ai application that allows you to chat with chatgpt, as well as generate images based off of any prompts you make. You can then store those images for later in mongodb.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "chatgpt",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/NathanHolt/ai-app",
     },
   ];
   
